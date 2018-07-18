@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html,
+body,
+header,
+#intro{
+    height:100%;
+}
+#intro{
+    background:url("http://wall2born.com/data/out/587/image-46759573-game-of-thrones-wallpaper-hd.jpg") no-repeat center fixed; background-size: cover;
+}
+
+#banner-content{
+    height:100%;
+background-color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,43 @@
+{
+	"users" : 
+		[
+		  {
+			"id": 1,
+			"name": "Amit Sinha",
+			"username": "amit.sinha",
+			"password": "password",
+			"email": "amitsinha243@gmail.com",
+			"address": {
+			  "street": "Kulas Light",
+			  "suite": "Apt. 556",
+			  "city": "Gwenborough",
+			  "zipcode": "92998-3874",
+			  "geo": {
+				"lat": "-37.3159",
+				"lng": "81.1496"
+			  }
+			},
+			"phone": "7059552494"
+		  },
+		  {
+			"id": 2,
+			"name": "Debajyoti Dutta",
+			"username": "debajyoti.dutta",
+			"password": "password",
+			"email": "hemantaz215@gmail.com",
+			"address": {
+			  "street": "Kulas Light",
+			  "suite": "Apt. 556",
+			  "city": "Gwenborough",
+			  "zipcode": "92998-3874",
+			  "geo": {
+				"lat": "-37.3159",
+				"lng": "81.1496"
+			  }
+			},
+			"phone": "7059552494"
+		  }
+		  
+		]
+	
+}

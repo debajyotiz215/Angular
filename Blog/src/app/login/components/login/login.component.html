@@ -1,0 +1,58 @@
+
+<nav class="navbar navbar-dark bg-dark">
+   <a href="#" class="navbar-brand">Game of Thrones</a>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Welcome!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">About Us</a>
+        </li>
+      </ul>
+  </nav>
+<body class = "text-center">
+  <div id="intro" class="container-fluid">
+      <br><br><br><br>
+    <div class="row">
+        <div class="col-lg-4">
+            
+                <div class="img-thumbnail shadow-lg p-3 mb-5 bg-white rounded">
+                    <img src="https://media.giphy.com/media/l0Iy4qFLu5oIQbnjy/giphy.gif" class="img-fluid" alt="">
+                </div>
+            
+          </div>
+          <div class="col-lg-4">
+              
+                  
+                      <div class="img-thumbnail shadow-lg p-3 mb-5 bg-white rounded">
+                          <img src="https://media.giphy.com/media/l41K3RWvl6gFjmLRe/giphy.gif" class="img-fluid" alt="">
+                      </div>
+                  
+                
+          </div>
+          
+      <div class="col-lg-3">
+          <form [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)">
+              <div class="form-signin">
+                  <img class="mb-4" src="http://www.pngonly.com/wp-content/uploads/2017/05/Game-of-Thrones-Logo-HD-PNG.png" alt="" width="102" height="72">
+                  <h1 class="h3 mb-3 font-weight-normal text-muted">Please sign in</h1>
+                <input type="username" class="form-control" formControlName="username" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" formControlName="password" placeholder="Password">
+                <div class="checkbox mb-3">
+                    
+                  </div>
+              </div>  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+              <br><br>
+              <p class="mt-5 mb-3" class="text-muted">© Game of Thrones Blog</p>
+              <audio autoplay>
+                <source src="https://files.prokerala.com/downloads/ringtones/files/mp3/game-of-thrones-theme-song-ringtone-30782.mp3" type="audio/mpeg">
+              </audio>
+            </form>
+      </div>
+    </div>
+  </div>
+   
+</body>
+
